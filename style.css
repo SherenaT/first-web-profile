@@ -1,0 +1,95 @@
+body {
+/* i added a margin so my pages werent on the edge of the page*/
+  margin: 10px;
+/*i picked my color schemes on the coolor website*/
+  background-color: #d1d0d4;
+}
+img {
+/* i wanted my image centered*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+/* i picked out a font i thought would stand out, because i want my name to stand out*/
+  font-family: cursive, fantasy, arial;
+  font-size: 50px;
+  /* i picked out a color a litter darker than my image background so it can tie in together*/
+  color: #4b4252;
+  text-align: center;
+    /* i did this because i wanted more padding above my name than the bottom*/
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.photo, .web-dev{
+  background-color: #706677;
+  /* i wanted text center so it aligned with my photo*/
+  text-align: center;
+}
+h2, h3, p {
+  text-align: center;
+/* because my colors are washed out, i wanted a font that wasnt too bold, something simple*/
+  font-family: "Gill Sans", sans-serif; Arial;
+}
+
+p{
+/* i wanted my p font to be smaller than h2 and h3*/
+  font-size: 18px;
+}
+
+main> section > div, .about-me {
+/* i wanted to switch up the background here so my text doesnt get lost in a single color*/
+   background-color: #d1d0d4;
+}
+h2{
+  font-size: 20px;
+  /* i wanted some space around h2*/
+  margin: 10px
+}
+h3{
+  font-size: 16px;
+}
+
+ul, ol, li{
+  /* i aligned this part left because i didnt like how the bullets and numbers looked when they werent in a straight line*/
+  text-align: left;
+/* i wanted the font to be the same as h2, h3, and p*/
+  font-family: "Gill Sans", sans-serif; Arial;
+  font-size: 16 px
+}
+nav{
+/* i wanted the nav centered along with the photo, h2, h3, and p*/  
+  text-align: center;
+}
+a{
+/* i wanted the font color to match h1*/  
+  color: #4b4252;
+/* i wanted a simple font*/  
+  font-family: arial;
+/* i wanted a white oval around the links so it pops out*/
+  background-color: white;
+  padding: 6px 30px;
+  border-radius: 20px;
+}
+
+footer{
+/*i changed the footer color so it would stand out*/
+  background-color: #d1d0d4;
+}
+
+footer > p{
+/*i wanted this font smaller*/
+  font-size: 14px
+}
+/*for visit and hoover i picked out bold colors so you can see when its activated*/
+a:link     {color:#4b4252;}
+a:visited  {color: lightpink;}
+a:hoover   {color:blue;}
+a:active   {color:red;}
+
+hr{
+/*wanted to show i can use HR*/
+  background-color:black;
+  height: 2px;
+}
